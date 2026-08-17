@@ -1,0 +1,406 @@
+export const translations = {
+  en: {
+    // Navigation
+    'nav.home': 'Home',
+    'nav.about': 'About Us',
+    'nav.services': 'Services',
+    'nav.fleet': 'Our Fleet',
+    'nav.rates': 'Rates',
+    'nav.destinations': 'Destinations',
+    'nav.gallery': 'Gallery',
+    'nav.contact': 'Contact',
+    'nav.book': 'Book Now',
+
+    // Header
+    'header.call': 'Call Us',
+    'header.whatsapp': 'WhatsApp',
+
+    // Hero Section
+    'hero.title': 'Shree Ji Taxi Service',
+    'hero.subtitle': 'Shreeji Taxi Service — Intercity & Outstation Cab Service',
+    'hero.tagline': 'Safe, Reliable & Comfortable Rides Since 2010',
+    'hero.bookNow': 'Book Your Ride',
+    'hero.callNow': 'Call Now',
+    'hero.whatsappNow': 'WhatsApp Us',
+
+    // Quick Booking
+    'booking.title': 'Quick Booking',
+    'booking.tripType': 'Trip Type',
+    'booking.local': 'Local',
+    'booking.outstation': 'Outstation',
+    'booking.airport': 'Airport Transfer',
+    'booking.pickup': 'Pickup Location',
+    'booking.drop': 'Drop Location',
+    'booking.date': 'Date',
+    'booking.time': 'Time',
+    'booking.vehicle': 'Select Vehicle',
+    'booking.name': 'Your Name',
+    'booking.phone': 'Phone Number',
+    'booking.email': 'Email (Optional)',
+    'booking.message': 'Special Requirements',
+    'booking.submit': 'Book via WhatsApp',
+    'booking.getQuote': 'Get Quote',
+
+    // Stats
+    'stats.years': 'Years Experience',
+    'stats.trips': 'Trips Completed',
+    'stats.customers': 'Happy Customers',
+    'stats.vehicles': 'Vehicles',
+
+    // Services
+    'services.title': 'Our Services',
+    'services.subtitle': 'Comprehensive taxi solutions for all your travel needs',
+    'services.local.title': 'Local Services',
+    'services.local.desc': 'City rides, hourly rentals, and point-to-point transfers within Delhi NCR',
+    'services.outstation.title': 'Outstation Trips',
+    'services.outstation.desc': 'One-way and round trips to destinations across India',
+    'services.airport.title': 'Airport Transfer',
+    'services.airport.desc': 'Reliable pickup and drop to Delhi IGI Airport with flight tracking',
+    'services.corporate.title': 'Corporate Travel',
+    'services.corporate.desc': 'Professional transportation solutions for businesses',
+    'services.wedding.title': 'Wedding Transport',
+    'services.wedding.desc': 'Decorated vehicles for weddings and special occasions',
+    'services.pilgrimage.title': 'Pilgrimage Tours',
+    'services.pilgrimage.desc': 'Char Dham Yatra and other sacred destination tours',
+    'services.sightseeing.title': 'Sightseeing Tours',
+    'services.sightseeing.desc': 'Explore Delhi monuments and attractions with guided tours',
+    'services.learnMore': 'Learn More',
+    'services.viewAll': 'View All Services',
+
+    // Fleet
+    'fleet.title': 'Our Fleet',
+    'fleet.subtitle': 'Well-maintained vehicles for every travel need',
+    'fleet.dzire.name': 'Maruti Dzire',
+    'fleet.dzire.desc': 'Comfortable sedan perfect for city rides and small families',
+    'fleet.dzire.capacity': '4 Passengers',
+    'fleet.ertiga.name': 'Maruti Ertiga',
+    'fleet.ertiga.desc': 'Spacious MPV ideal for family trips and group travel',
+    'fleet.ertiga.capacity': '6 Passengers',
+    'fleet.innova.name': 'Toyota Innova Crysta',
+    'fleet.innova.desc': 'Premium SUV for luxury travel and long-distance comfort',
+    'fleet.innova.capacity': '6 Passengers',
+    'fleet.tempo.name': 'Tempo Traveller',
+    'fleet.tempo.desc': 'Perfect for large groups, pilgrimages, and corporate events',
+    'fleet.tempo.capacity': '12-15 Passengers',
+    'fleet.viewAll': 'View All Vehicles',
+    'fleet.bookThis': 'Book This Vehicle',
+    'fleet.features': 'Features',
+    'fleet.ac': 'Air Conditioned',
+    'fleet.music': 'Music System',
+    'fleet.luggage': 'Luggage Space',
+    'fleet.charger': 'Mobile Charger',
+
+    // Rates
+    'rates.title': 'Our Rates',
+    'rates.subtitle': 'Transparent pricing with no hidden charges',
+    'rates.local': 'Local Rental',
+    'rates.outstation': 'Outstation',
+    'rates.perDay': 'per day',
+    'rates.extraKm': 'Extra per km',
+    'rates.hours': 'Hours',
+    'rates.km': 'Km',
+    'rates.note': 'Note: Toll, parking, and driver allowance extra',
+    'rates.getQuote': 'Get Custom Quote',
+    'rates.viewAll': 'View All Rates',
+
+    // Destinations
+    'destinations.title': 'Popular Destinations',
+    'destinations.subtitle': 'Explore amazing places from Delhi',
+    'destinations.rajasthan': 'Rajasthan',
+    'destinations.himachal': 'Himachal Pradesh',
+    'destinations.uttarakhand': 'Uttarakhand',
+    'destinations.up': 'Uttar Pradesh',
+    'destinations.punjab': 'Punjab',
+    'destinations.distance': 'Distance',
+    'destinations.duration': 'Duration',
+    'destinations.startingFrom': 'Starting from',
+    'destinations.bookTrip': 'Book Trip',
+    'destinations.viewAll': 'View All Destinations',
+
+    // Why Choose Us
+    'why.title': 'Why Choose Us',
+    'why.subtitle': 'Experience the Shree Ji difference',
+    'why.experience': 'Years of Experience',
+    'why.experienceDesc': 'Over a decade of trusted service in Delhi NCR',
+    'why.drivers': 'Professional Drivers',
+    'why.driversDesc': 'Well-trained, courteous, and knowledgeable drivers',
+    'why.pricing': 'Transparent Pricing',
+    'why.pricingDesc': 'No hidden charges, what you see is what you pay',
+    'why.available': '24/7 Availability',
+    'why.availableDesc': 'Round the clock service for your convenience',
+    'why.maintained': 'Well-Maintained Fleet',
+    'why.maintainedDesc': 'Clean, sanitized, and regularly serviced vehicles',
+    'why.support': 'Customer Support',
+    'why.supportDesc': 'Dedicated support team to assist you anytime',
+
+    // Testimonials
+    'testimonials.title': 'What Our Customers Say',
+    'testimonials.subtitle': 'Trusted by thousands of happy travelers',
+
+    // Pilgrimage
+    'pilgrimage.title': 'Pilgrimage Tours',
+    'pilgrimage.charDham': 'Char Dham Yatra',
+    'pilgrimage.charDhamDesc': 'Complete spiritual journey to Yamunotri, Gangotri, Kedarnath, and Badrinath',
+    'pilgrimage.bookNow': 'Book Pilgrimage Tour',
+
+    // About
+    'about.title': 'About Shree Ji Taxi Service',
+    'about.subtitle': 'Your trusted travel partner since 2010',
+    'about.story': 'Our Story',
+    'about.storyText': 'Founded by Mr. Vijay Yadav, Shree Ji Taxi Service has been serving travelers in Delhi NCR with dedication and commitment to excellence. What started as a small taxi service has grown into a trusted name for reliable transportation.',
+    'about.mission': 'Our Mission',
+    'about.missionText': 'To provide safe, comfortable, and affordable travel solutions while maintaining the highest standards of customer service.',
+    'about.vision': 'Our Vision',
+    'about.visionText': 'To be the most trusted taxi service in North India, known for reliability, safety, and customer satisfaction.',
+    'about.values': 'Our Values',
+    'about.owner': 'Meet Our Founder',
+    'about.ownerName': 'Mr. Vijay Yadav',
+    'about.ownerTitle': 'Founder & Owner',
+
+    // Contact
+    'contact.title': 'Contact Us',
+    'contact.subtitle': 'Get in touch with us for bookings and inquiries',
+    'contact.address': 'Address',
+    'contact.addressText': 'Swarg Ashram Colony, GTB Nagar, Mukherjee Nagar, New Delhi - 110009',
+    'contact.phone': 'Phone',
+    'contact.whatsapp': 'WhatsApp',
+    'contact.hours': 'Business Hours',
+    'contact.hoursText': '24/7 Available',
+    'contact.form.title': 'Send us a message',
+    'contact.form.submit': 'Send via WhatsApp',
+
+    // Footer
+    'footer.tagline': 'Shreeji Taxi Service — Intercity & Outstation Cab Service',
+    'footer.quickLinks': 'Quick Links',
+    'footer.services': 'Services',
+    'footer.contact': 'Contact Info',
+    'footer.followUs': 'Follow Us',
+    'footer.copyright': '© 2024 Shree Ji Taxi Service. All rights reserved.',
+
+    // Common
+    'common.readMore': 'Read More',
+    'common.viewDetails': 'View Details',
+    'common.enquireNow': 'Enquire Now',
+    'common.callUs': 'Call Us',
+    'common.whatsappUs': 'WhatsApp Us',
+    'common.loading': 'Loading...',
+    'common.error': 'Something went wrong',
+
+    // FAQ
+    'faq.title': 'Frequently Asked Questions',
+    'faq.subtitle': 'Find answers to common questions',
+
+    // Social Media
+    'social.title': 'Follow Us on Social Media',
+    'social.subtitle': 'Stay connected for travel updates, offers & trip highlights',
+
+    // CTA
+    'cta.ready': 'Ready to Book Your Ride?',
+    'cta.subtitle': 'Contact us now for the best rates and reliable service',
+    'cta.bookNow': 'Book Now',
+    'cta.callUs': 'Call Us',
+  },
+  hi: {
+    // Navigation
+    'nav.home': 'होम',
+    'nav.about': 'हमारे बारे में',
+    'nav.services': 'सेवाएं',
+    'nav.fleet': 'हमारी गाड़ियां',
+    'nav.rates': 'किराया',
+    'nav.destinations': 'गंतव्य',
+    'nav.gallery': 'गैलरी',
+    'nav.contact': 'संपर्क करें',
+    'nav.book': 'अभी बुक करें',
+
+    // Header
+    'header.call': 'कॉल करें',
+    'header.whatsapp': 'व्हाट्सएप',
+
+    // Hero Section
+    'hero.title': 'श्री जी टैक्सी सर्विस',
+    'hero.subtitle': 'श्रीजी टैक्सी सेवा — इंटरसिटी और आउटस्टेशन कैब सेवा',
+    'hero.tagline': '2010 से सुरक्षित, विश्वसनीय और आरामदायक सवारी',
+    'hero.bookNow': 'अपनी सवारी बुक करें',
+    'hero.callNow': 'अभी कॉल करें',
+    'hero.whatsappNow': 'व्हाट्सएप करें',
+
+    // Quick Booking
+    'booking.title': 'त्वरित बुकिंग',
+    'booking.tripType': 'यात्रा का प्रकार',
+    'booking.local': 'लोकल',
+    'booking.outstation': 'आउटस्टेशन',
+    'booking.airport': 'एयरपोर्ट ट्रांसफर',
+    'booking.pickup': 'पिकअप स्थान',
+    'booking.drop': 'ड्रॉप स्थान',
+    'booking.date': 'तारीख',
+    'booking.time': 'समय',
+    'booking.vehicle': 'गाड़ी चुनें',
+    'booking.name': 'आपका नाम',
+    'booking.phone': 'फोन नंबर',
+    'booking.email': 'ईमेल (वैकल्पिक)',
+    'booking.message': 'विशेष आवश्यकताएं',
+    'booking.submit': 'व्हाट्सएप से बुक करें',
+    'booking.getQuote': 'कोटेशन पाएं',
+
+    // Stats
+    'stats.years': 'वर्षों का अनुभव',
+    'stats.trips': 'यात्राएं पूर्ण',
+    'stats.customers': 'खुश ग्राहक',
+    'stats.vehicles': 'गाड़ियां',
+
+    // Services
+    'services.title': 'हमारी सेवाएं',
+    'services.subtitle': 'आपकी सभी यात्रा आवश्यकताओं के लिए व्यापक टैक्सी समाधान',
+    'services.local.title': 'लोकल सेवाएं',
+    'services.local.desc': 'दिल्ली एनसीआर में शहर की सवारी, प्रति घंटा किराया और पॉइंट-टू-पॉइंट ट्रांसफर',
+    'services.outstation.title': 'आउटस्टेशन यात्राएं',
+    'services.outstation.desc': 'पूरे भारत में गंतव्यों के लिए एकतरफा और राउंड ट्रिप',
+    'services.airport.title': 'एयरपोर्ट ट्रांसफर',
+    'services.airport.desc': 'फ्लाइट ट्रैकिंग के साथ दिल्ली IGI एयरपोर्ट से विश्वसनीय पिकअप और ड्रॉप',
+    'services.corporate.title': 'कॉर्पोरेट यात्रा',
+    'services.corporate.desc': 'व्यवसायों के लिए पेशेवर परिवहन समाधान',
+    'services.wedding.title': 'शादी परिवहन',
+    'services.wedding.desc': 'शादी और विशेष अवसरों के लिए सजी हुई गाड़ियां',
+    'services.pilgrimage.title': 'तीर्थ यात्राएं',
+    'services.pilgrimage.desc': 'चार धाम यात्रा और अन्य पवित्र स्थलों की यात्राएं',
+    'services.sightseeing.title': 'दर्शनीय स्थल यात्रा',
+    'services.sightseeing.desc': 'गाइडेड टूर के साथ दिल्ली के स्मारकों और आकर्षणों का अन्वेषण करें',
+    'services.learnMore': 'और जानें',
+    'services.viewAll': 'सभी सेवाएं देखें',
+
+    // Fleet
+    'fleet.title': 'हमारी गाड़ियां',
+    'fleet.subtitle': 'हर यात्रा की जरूरत के लिए अच्छी तरह से रखरखाव की गई गाड़ियां',
+    'fleet.dzire.name': 'मारुति डिज़ायर',
+    'fleet.dzire.desc': 'शहर की सवारी और छोटे परिवारों के लिए आरामदायक सेडान',
+    'fleet.dzire.capacity': '4 यात्री',
+    'fleet.ertiga.name': 'मारुति अर्टिगा',
+    'fleet.ertiga.desc': 'पारिवारिक यात्राओं और समूह यात्रा के लिए आदर्श विशाल एमपीवी',
+    'fleet.ertiga.capacity': '6 यात्री',
+    'fleet.innova.name': 'टोयोटा इनोवा क्रिस्टा',
+    'fleet.innova.desc': 'लक्जरी यात्रा और लंबी दूरी की सुविधा के लिए प्रीमियम एसयूवी',
+    'fleet.innova.capacity': '6 यात्री',
+    'fleet.tempo.name': 'टेम्पो ट्रैवलर',
+    'fleet.tempo.desc': 'बड़े समूहों, तीर्थयात्राओं और कॉर्पोरेट कार्यक्रमों के लिए उत्तम',
+    'fleet.tempo.capacity': '12-15 यात्री',
+    'fleet.viewAll': 'सभी गाड़ियां देखें',
+    'fleet.bookThis': 'यह गाड़ी बुक करें',
+    'fleet.features': 'विशेषताएं',
+    'fleet.ac': 'एयर कंडीशन',
+    'fleet.music': 'म्यूजिक सिस्टम',
+    'fleet.luggage': 'सामान स्थान',
+    'fleet.charger': 'मोबाइल चार्जर',
+
+    // Rates
+    'rates.title': 'हमारे किराये',
+    'rates.subtitle': 'कोई छिपे हुए शुल्क नहीं, पारदर्शी मूल्य निर्धारण',
+    'rates.local': 'लोकल किराया',
+    'rates.outstation': 'आउटस्टेशन',
+    'rates.perDay': 'प्रति दिन',
+    'rates.extraKm': 'अतिरिक्त प्रति किमी',
+    'rates.hours': 'घंटे',
+    'rates.km': 'किमी',
+    'rates.note': 'नोट: टोल, पार्किंग और ड्राइवर भत्ता अतिरिक्त',
+    'rates.getQuote': 'कस्टम कोटेशन पाएं',
+    'rates.viewAll': 'सभी किराये देखें',
+
+    // Destinations
+    'destinations.title': 'लोकप्रिय गंतव्य',
+    'destinations.subtitle': 'दिल्ली से अद्भुत स्थानों का अन्वेषण करें',
+    'destinations.rajasthan': 'राजस्थान',
+    'destinations.himachal': 'हिमाचल प्रदेश',
+    'destinations.uttarakhand': 'उत्तराखंड',
+    'destinations.up': 'उत्तर प्रदेश',
+    'destinations.punjab': 'पंजाब',
+    'destinations.distance': 'दूरी',
+    'destinations.duration': 'समय',
+    'destinations.startingFrom': 'शुरू से',
+    'destinations.bookTrip': 'यात्रा बुक करें',
+    'destinations.viewAll': 'सभी गंतव्य देखें',
+
+    // Why Choose Us
+    'why.title': 'हमें क्यों चुनें',
+    'why.subtitle': 'श्री जी का अंतर अनुभव करें',
+    'why.experience': 'वर्षों का अनुभव',
+    'why.experienceDesc': 'दिल्ली एनसीआर में एक दशक से अधिक की विश्वसनीय सेवा',
+    'why.drivers': 'पेशेवर ड्राइवर',
+    'why.driversDesc': 'अच्छी तरह से प्रशिक्षित, विनम्र और जानकार ड्राइवर',
+    'why.pricing': 'पारदर्शी मूल्य',
+    'why.pricingDesc': 'कोई छिपे शुल्क नहीं, जो दिखता है वही भुगतान करें',
+    'why.available': '24/7 उपलब्धता',
+    'why.availableDesc': 'आपकी सुविधा के लिए चौबीसों घंटे सेवा',
+    'why.maintained': 'अच्छी तरह रखरखाव वाली गाड़ियां',
+    'why.maintainedDesc': 'साफ, सैनिटाइज्ड और नियमित रूप से सर्विस की गई गाड़ियां',
+    'why.support': 'ग्राहक सहायता',
+    'why.supportDesc': 'किसी भी समय आपकी सहायता के लिए समर्पित सहायता टीम',
+
+    // Testimonials
+    'testimonials.title': 'हमारे ग्राहक क्या कहते हैं',
+    'testimonials.subtitle': 'हजारों खुश यात्रियों द्वारा विश्वसनीय',
+
+    // Pilgrimage
+    'pilgrimage.title': 'तीर्थ यात्राएं',
+    'pilgrimage.charDham': 'चार धाम यात्रा',
+    'pilgrimage.charDhamDesc': 'यमुनोत्री, गंगोत्री, केदारनाथ और बद्रीनाथ की संपूर्ण आध्यात्मिक यात्रा',
+    'pilgrimage.bookNow': 'तीर्थ यात्रा बुक करें',
+
+    // About
+    'about.title': 'श्री जी टैक्सी सर्विस के बारे में',
+    'about.subtitle': '2010 से आपका विश्वसनीय यात्रा साथी',
+    'about.story': 'हमारी कहानी',
+    'about.storyText': 'श्री विजय यादव द्वारा स्थापित, श्री जी टैक्सी सर्विस दिल्ली एनसीआर में यात्रियों को समर्पण और उत्कृष्टता के प्रति प्रतिबद्धता के साथ सेवा प्रदान कर रही है। जो एक छोटी टैक्सी सेवा के रूप में शुरू हुई थी, वह विश्वसनीय परिवहन के लिए एक भरोसेमंद नाम बन गई है।',
+    'about.mission': 'हमारा मिशन',
+    'about.missionText': 'ग्राहक सेवा के उच्चतम मानकों को बनाए रखते हुए सुरक्षित, आरामदायक और किफायती यात्रा समाधान प्रदान करना।',
+    'about.vision': 'हमारा विज़न',
+    'about.visionText': 'उत्तर भारत में सबसे विश्वसनीय टैक्सी सेवा बनना, विश्वसनीयता, सुरक्षा और ग्राहक संतुष्टि के लिए जाना जाता है।',
+    'about.values': 'हमारे मूल्य',
+    'about.owner': 'हमारे संस्थापक से मिलें',
+    'about.ownerName': 'श्री विजय यादव',
+    'about.ownerTitle': 'संस्थापक और मालिक',
+
+    // Contact
+    'contact.title': 'संपर्क करें',
+    'contact.subtitle': 'बुकिंग और पूछताछ के लिए हमसे संपर्क करें',
+    'contact.address': 'पता',
+    'contact.addressText': 'स्वर्ग आश्रम कॉलोनी, जीटीबी नगर, मुखर्जी नगर, नई दिल्ली - 110009',
+    'contact.phone': 'फोन',
+    'contact.whatsapp': 'व्हाट्सएप',
+    'contact.hours': 'कार्य समय',
+    'contact.hoursText': '24/7 उपलब्ध',
+    'contact.form.title': 'हमें संदेश भेजें',
+    'contact.form.submit': 'व्हाट्सएप से भेजें',
+
+    // Footer
+    'footer.tagline': 'श्रीजी टैक्सी सेवा — इंटरसिटी और आउटस्टेशन कैब सेवा',
+    'footer.quickLinks': 'त्वरित लिंक',
+    'footer.services': 'सेवाएं',
+    'footer.contact': 'संपर्क जानकारी',
+    'footer.followUs': 'हमें फॉलो करें',
+    'footer.copyright': '© 2024 श्री जी टैक्सी सर्विस। सर्वाधिकार सुरक्षित।',
+
+    // Common
+    'common.readMore': 'और पढ़ें',
+    'common.viewDetails': 'विवरण देखें',
+    'common.enquireNow': 'अभी पूछताछ करें',
+    'common.callUs': 'कॉल करें',
+    'common.whatsappUs': 'व्हाट्सएप करें',
+    'common.loading': 'लोड हो रहा है...',
+    'common.error': 'कुछ गलत हो गया',
+
+    // FAQ
+    'faq.title': 'अक्सर पूछे जाने वाले प्रश्न',
+    'faq.subtitle': 'सामान्य प्रश्नों के उत्तर पाएं',
+
+    // Social Media
+    'social.title': 'सोशल मीडिया पर हमसे जुड़ें',
+    'social.subtitle': 'यात्रा अपडेट, ऑफर और ट्रिप की झलकियों के लिए जुड़े रहें',
+
+    // CTA
+    'cta.ready': 'अपनी सवारी बुक करने के लिए तैयार हैं?',
+    'cta.subtitle': 'सर्वोत्तम दरों और विश्वसनीय सेवा के लिए अभी संपर्क करें',
+    'cta.bookNow': 'अभी बुक करें',
+    'cta.callUs': 'कॉल करें',
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;
